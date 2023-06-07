@@ -1,4 +1,3 @@
-import { PlanProps } from "@/app/community/page";
 import path from "@/configs/path";
 import Image from "next/image";
 import Link from "next/link";
@@ -8,7 +7,7 @@ export default function CommunityCard({
   plan,
   idx,
 }: {
-  plan: PlanProps;
+  plan: any;
   idx: number;
 }) {
   return (
