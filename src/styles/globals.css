@@ -8,21 +8,8 @@
   margin: 0;
 }
 
-html,
 body {
-  height: 100vh;
-  overflow-x: hidden;
-}
-
-body {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  height: 100%;
-  background-image: url("/images/background.svg"),
-    linear-gradient(154.03deg, #4481eb 0%, #04befe 100%);
-  background-repeat: no-repeat;
-  background-size: cover;
+  @apply flex h-screen w-full flex-col bg-sky-200;
 }
 
 main {
