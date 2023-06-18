@@ -1,6 +1,5 @@
 import React from "react";
 import CTimeSchedule from "./CTimeSchedule";
-import EditIcon from "../common/icons/EditIcon";
 
 interface Days {
   [day: string]: { daytime: string; items: Object };

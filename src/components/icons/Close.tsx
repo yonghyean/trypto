@@ -1,0 +1,27 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const SvgClose = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width={24}
+    height={24}
+    fill="none"
+    {...props}
+  >
+    <g clipPath="url(#close_svg__a)">
+      <path
+        stroke="#292929"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth={2}
+        d="m7 7 10 10M7 17 17 7"
+      />
+    </g>
+    <defs>
+      <clipPath id="close_svg__a">
+        <path fill="#fff" d="M0 0h24v24H0z" />
+      </clipPath>
+    </defs>
+  </svg>
+);
+export default SvgClose;

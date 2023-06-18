@@ -1,7 +1,6 @@
 "use client";
 import React from "react";
 import PageContainer from "@/components/common/PageContainer";
-import PlusIcon from "@/components/common/icons/PlusIcon";
 import PlanCard from "@/components/plans/PlanCard";
 import useModal from "@/hooks/useModal";
 import Modal from "@/components/common/Modal";
@@ -12,6 +11,7 @@ import useMyPlan from "@/hooks/datas/useMyPlan";
 import { mutate } from "swr";
 import { useAccount } from "wagmi";
 import convertInputDate from "@/utils/convertInputDate";
+import { PlusIcon } from "@/components/icons";
 
 export default function Plans() {
   const { data, isLoading } = useMyPlan();

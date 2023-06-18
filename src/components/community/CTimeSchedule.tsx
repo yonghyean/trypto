@@ -3,7 +3,6 @@ import React from "react";
 import Modal from "../common/Modal";
 import CScheduleForm from "./CScheduleForm";
 import useModal from "@/hooks/useModal";
-import CloseIcon from "../common/icons/CloseIcon";
 
 interface CTimeScheduleProps {
   time: string;

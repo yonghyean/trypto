@@ -3,7 +3,6 @@ import React from "react";
 import Modal from "../common/Modal";
 import ScheduleForm from "./ScheduleForm";
 import useModal from "@/hooks/useModal";
-import CloseIcon from "../common/icons/CloseIcon";
 import { TripPlan, TripPlanByTime } from "@/interfaces/datas/trip";
 import { useRecoilState } from "recoil";
 import useMyPlan from "@/hooks/datas/useMyPlan";
@@ -11,6 +10,7 @@ import { useParams } from "next/navigation";
 import { updatePlan } from "@/api/plan";
 import { mutate } from "swr";
 import { useAccount } from "wagmi";
+import { CloseIcon } from "../icons";
 
 interface TimeScheduleProps {
   id: number;

@@ -2,10 +2,8 @@
 import React, { useState } from "react";
 import Menu from "@/components/common/Menu";
 import { useAccount } from "wagmi";
-import MenuIcon from "./icons/MenuIcon";
-import SearchIcon from "./icons/SearchIcon";
-import ArrowIcon from "./icons/ArrowIcon";
 import { useRouter } from "next/navigation";
+import { ArrowLeftIcon, MenuIcon, SearchIcon } from "../icons";
 
 const Header = () => {
   const router = useRouter();
@@ -40,7 +38,7 @@ const Header = () => {
         className="w-[60px] h-[60px] bg-white bg-opacity-50 border border-white shadow-md rounded-2xl flex-center"
         onClick={handleHistoryBack}
       >
-        <ArrowIcon direction="top" width={40} height={40} />
+        <ArrowLeftIcon width={40} height={40} />
       </button>
       <button
         type="button"

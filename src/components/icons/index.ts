@@ -1,0 +1,9 @@
+export { default as SearchIcon } from "./Search";
+export { default as ArrowDownIcon } from "./ArrowDown";
+export { default as ArrowLeftIcon } from "./ArrowLeft";
+export { default as ArrowRightIcon } from "./ArrowRight";
+export { default as ArrowUpIcon } from "./ArrowUp";
+export { default as CloseIcon } from "./Close";
+export { default as EditIcon } from "./Edit";
+export { default as MenuIcon } from "./Menu";
+export { default as PlusIcon } from "./Plus";
