@@ -9,7 +9,7 @@ const SvgSearch = (props: SVGProps<SVGSVGElement>) => (
     viewBox="0 0 24 24"
     {...props}
   >
-    <g clipPath="url(#Search_svg__a)">
+    <g clipPath="url(#search_svg__a)">
       <path
         stroke="#292929"
         strokeLinecap="round"
@@ -19,7 +19,7 @@ const SvgSearch = (props: SVGProps<SVGSVGElement>) => (
       />
     </g>
     <defs>
-      <clipPath id="Search_svg__a">
+      <clipPath id="search_svg__a">
         <path fill="#fff" d="M0 0h24v24H0z" />
       </clipPath>
     </defs>
