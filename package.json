@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "generate:icons": "npx @svgr/cli --typescript --out-dir ./src/components/icons --index-template ./scripts/icon-template.js -- public/icons"
   },
   "dependencies": {
     "@lottiefiles/lottie-player": "^1.7.1",
