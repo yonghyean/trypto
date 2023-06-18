@@ -45,7 +45,7 @@ const Header = () => {
         className="w-[60px] h-[60px] bg-white bg-opacity-50 border border-white shadow-md rounded-2xl flex-center ml-auto"
         onClick={handleSearchClick}
       >
-        <SearchIcon />
+        <SearchIcon width={24} height={24} />
       </button>
       <button
         type="button"
